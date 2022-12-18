@@ -5,10 +5,14 @@ int secondNum = Convert.ToInt32(Console.ReadLine());
 if (firstNum > secondNum)
 {
     Console.Write("Наибольшее из двух чисел: ");
-    Console.Write(firstNum);
+    Console.WriteLine(firstNum);
+    Console.Write("Наименьшее из двух чисел: ");
+    Console.Write(secondNum);
 }
 else
 {
     Console.Write("Наибольшее из двух чисел: ");
-    Console.Write(secondNum);
+    Console.WriteLine(secondNum);
+    Console.Write("Наименьшее из двух чисел: ");
+    Console.Write(firstNum);
 }
